@@ -71,7 +71,7 @@ if __name__ == '__main__':
     
         
     ## Section 2 to SQL
-    conn = sqlite3.connect("OwlTail.db")
+    conn = sqlite3.connect("Podcast.db")
     cursor = conn.cursor()
     ## drop table podcast
     dropStatement = "DROP TABLE podcast"
